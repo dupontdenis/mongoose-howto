@@ -2,17 +2,18 @@
   "name": "mongoose-howto",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^8.3.2"
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.19.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
